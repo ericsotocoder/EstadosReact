@@ -66,6 +66,18 @@ body {
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+  text-align: center;        
+  max-width: 400px;          
+  margin: 40px auto;        
+  padding: 25px;
+  border-radius: 12px;       
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
 h1,
 h2 {
   font-family: var(--heading);
